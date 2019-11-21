@@ -1,0 +1,44 @@
+.text-title{
+  text-transform: uppercase;
+  text-color: black;
+}
+
+.img {
+  width: 25%;
+  height: auto;
+}
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #D14647;
+  color: white;
+  text-align: center;
+  margin-top: 38px;
+  padding: 20px;
+}
+
+header {
+  padding: 1%;
+  text-align: center;
+  background: #D14647;
+  color: white;
+  font-size: 30px;
+}
+
+body{
+  background-color: #282828;
+  margin: 0px;
+}
+
+p, h1, a {
+    font-family:'Quicksand', sans-serif;;
+    color: #E2E2E2;
+}
+
+img, p, h1 {
+  padding-left: 20px;
+  padding-right: 20px;
+}

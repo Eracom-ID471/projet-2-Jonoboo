@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+{% include head.html %}
+
+
+  <body>
+    {% include header.html %}
+    {% for car-crash in site.car-crash %}
+    <h1 class="text-title"> {{ car-crash.ranking}}.
+      <a href="{{ car-crash.url }}"> {{ car-crash.title }} </a>
+    </h1>
+    <p>{{car-crash.short-description}}</p>
+
+    <img class="img" src="{{ car-crash.image }}" />
+
+
+    {% endfor %}
+    {% include footer.html %}
+
+  </body>
+</html>
