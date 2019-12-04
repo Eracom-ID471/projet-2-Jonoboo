@@ -1,0 +1,12 @@
+---
+layout: list
+title: "Top 5 Plane Crashes"
+---
+
+{% for car-crash in site.car-crash %}
+<h1 class="text-title"> {{ car-crash.ranking}}.
+  <a href="{{ car-crash.url | relative_url }}"> {{ car-crash.title }} </a>
+</h1>
+<p>{{car-crash.short-description}}</p>
+<img class="img" src="{{ car-crash.image | relative_url}}" />
+{% endfor %}
