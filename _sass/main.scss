@@ -9,9 +9,6 @@
 }
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   background-color: #D14647;
   color: white;
@@ -45,6 +42,11 @@ img, p, h1 {
   text-align: center;
 }
 
+.infos {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
 h2 {
   font-size: 1rem;
 }
@@ -76,4 +78,9 @@ h2 {
   width: 30px;
   text-align: center;
   text-decoration: none;
+}
+
+
+body{
+
 }

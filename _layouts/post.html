@@ -3,11 +3,13 @@
 {% include head.html %}
 <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 
+{% include header.html %}
   <body>
-    {% include header.html %}
+
       <img class="img" src="{{ car-crash.image | relative_url}}" />
-    <h1>{{ page.title }}</h1>
-    <p>{{ content}}</p>
-      {% include footer.html %}
+      <h1>{{ page.title }}</h1>
+      <p>{{ content}}</p>
+
   </body>
+  {% include footer.html %}
 </html>
