@@ -23,7 +23,7 @@ footer {
 
 header {
   padding: 1%;
-  text-align: cente0
+  text-align: cente0;
   background: #D14647;
   color: white;
   font-size: 30px;
@@ -42,4 +42,38 @@ p, h1, a {
 img, p, h1 {
   padding-left: 20px;
   padding-right: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+
+.footertxt {
+  margin-bottom: 0px;
+  margin-top: 6px;
+  font-size: 20px;
+  color: black;
+}
+// style="margin-bottom: 0px; margin-top: 30px
+
+
+.in {
+  padding-top: 10px;
+  padding-left:0px;
+  padding-right:0px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa {
+  padding-top: 10px;
+  font-size: 30px;
+  padding-left:0px;
+  padding-right:0px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
 }
